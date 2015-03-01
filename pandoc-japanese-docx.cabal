@@ -1,13 +1,13 @@
 name:                pandoc-japanese-docx
 version:             0.1.0.0
--- synopsis:            
--- description:         
+synopsis:            Enhanced Pandoc Docx reader with Japanese markup support
+description:         Enhanced Pandoc Docx reader with Japanese markup support
 license:             GPL-2
 license-file:        LICENSE
 author:              Hiromi ISHII <konn.jinro_at_gmail.com>
 maintainer:          Hiromi ISHII <konn.jinro_at_gmail.com>
 copyright:           (c) Hiromi ISHII 2015
--- category:            
+category:            Text
 build-type:          Simple
 -- extra-source-files:  
 cabal-version:       >=1.10
@@ -23,7 +23,7 @@ library
                        Text.Pandoc.Readers.Docx.Parse
                        Text.Pandoc.Readers.Docx.Reducible
   -- other-extensions:    
-  build-depends:       base
+  build-depends:       base       >= 4 && <5
                      , bytestring >= 0.10.4.0
                      , containers >= 0.5.5.1
                      , data-default >= 0.5.3

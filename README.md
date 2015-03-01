@@ -6,6 +6,9 @@ pandoc-japanese-docx - Japanese Docx reader for pandoc
 
 ## What is this?
 Enhanced Pandoc Docx reader with Japanese markup supported.
+Currently, almost all of the code are taken from original
+[pandoc](http://github.com/jgm/pandoc ) Docx parser.
+
 
 Currently pandoc does not provide environment representing
 Japanese writings (such as ruby, horizontal-in-vertical and

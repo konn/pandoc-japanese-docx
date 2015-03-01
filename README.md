@@ -15,7 +15,7 @@ $ cabal install pandoc-japanese-docx
 
 ## Licence
 
-BSD3
+GPL
 
 ## Copyright
 

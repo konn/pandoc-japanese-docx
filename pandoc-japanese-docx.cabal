@@ -55,13 +55,13 @@ executable pandoc-japanese
                      , bytestring
                      , containers
                      , data-default
-                     , directory
                      , directory >= 1.2.1.0
                      , filepath
                      , pandoc
                      , pandoc-types
                      , text
                      , text >= 1.1.0.0
+                     , pandoc-japanese-docx
   default-language:    Haskell2010
 
 -- test-suite spec

@@ -2,7 +2,7 @@ name:                pandoc-japanese-docx
 version:             0.1.0.0
 -- synopsis:            
 -- description:         
-license:             BSD3
+license:             GPL-2
 license-file:        LICENSE
 author:              Hiromi ISHII <konn.jinro_at_gmail.com>
 maintainer:          Hiromi ISHII <konn.jinro_at_gmail.com>
